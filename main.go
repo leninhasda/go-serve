@@ -12,14 +12,6 @@ import (
 	"time"
 )
 
-func env(key, defaultVal string) string {
-	val := os.Getenv(key)
-	if val == "" {
-		val = defaultVal
-	}
-	return val
-}
-
 func main() {
 	workDir, _ := os.Getwd()
 
