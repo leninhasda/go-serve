@@ -16,9 +16,11 @@ sudo mv go-serve /usr/local/bin/
 go-serve
 ```
 
+> you can rename it to anything if you want
+
 By default it will serve current directory port `5000`. But you can modify that:
 ```
-PORT=8080 go-serve // will serve current directory on port 8080
+go-serve -port 8080 // will serve current directory on port 8080
 // or
-DIR=~/ PORT=8080 go-serve // will serve home directory on port 8080
+go-serve -port 8080 -dir /Users/lenin // will serve home directory of lenin user on port 8080
 ```

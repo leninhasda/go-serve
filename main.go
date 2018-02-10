@@ -2,6 +2,8 @@ package main
 
 import (
 	"context"
+	"flag"
+	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -19,15 +21,16 @@ func env(key, defaultVal string) string {
 }
 
 func main() {
-	port := env("PORT", "5000")
 	workDir, _ := os.Getwd()
-	dir := env("DIR", workDir)
+
+	port := *flag.String("port", "5000", "Port for the application")
+	dir := *flag.String("dir", workDir, "Directory to serve")
+	flag.Parse()
 
 	fs := http.FileServer(http.Dir(dir))
 	http.Handle("/", fs)
-
 	srvr := http.Server{
-		Addr: ":" + port,
+		Addr: fmt.Sprintf(":%s", port),
 	}
 
 	stop := make(chan os.Signal, 1)
