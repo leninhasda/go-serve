@@ -1,4 +1,6 @@
-![go-serve](go-serve.png)
+<p align="center">
+  <img src="https://github.com/leninhasda/go-serve/blob/dev/go-serve.png?raw=true" alt="go-serve"/>
+</p>
 
 # go-serve
 Quickly spin up a file server
