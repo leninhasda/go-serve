@@ -1,11 +1,11 @@
-<p align="center">
-  <img src="https://github.com/leninhasda/go-serve/blob/dev/go-serve.png?raw=true" alt="go-serve"/>
+<p align="center" style="padding: 40px 0;">
+  <img src="https://github.com/leninhasda/go-serve/blob/dev/go-serve.png?raw=true" alt="go-serve" style="max-width: 25%;"/>
 </p>
 
-# go-serve
-Quickly spin up a file server
+## What does it do?
+Quickly spins up a file server anywhere in directory.
 
-## Install and usage:
+## How
 [Download the binary from here](https://github.com/leninhasda/go-serve/releases/download/v0.1/go-serve)
 
 Add executable permission and start using:
