@@ -1,5 +1,5 @@
 <p align="center" style="padding: 40px 0;">
-  <img src="https://github.com/leninhasda/go-serve/blob/dev/go-serve.png?raw=true" alt="go-serve" style="max-width: 25%;"/>
+  <img src="https://github.com/leninhasda/go-serve/blob/dev/go-serve.png?raw=true" alt="go-serve" width="25%"/>
 </p>
 
 ## What does it do?
