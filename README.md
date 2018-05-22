@@ -1,3 +1,5 @@
+![go-serve](go-serve.png)
+
 # go-serve
 Quickly spin up a file server
 

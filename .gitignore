@@ -1,4 +1,5 @@
 *.log
+go-serve
 
 dist
 vendor
