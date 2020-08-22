@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "name": "go-server",
+            "script": "make build && ./go-serve",
+            "interpreter": "bash",
+            "watch": true,
+            "ignore_watch": [
+                "vendor",
+                "*.log",
+                ".git",
+                ".gitignore"
+            ]
+        }
+    ]
+}
